@@ -129,11 +129,17 @@ body {
 
 @media (max-width: 768px) {
   .border-r{
-    border-right: none;
+    border-right: none!important;
     border-top: 2px solid #a03529!important;
   }
 }
 
 .cp-font{
   font-size: 10px;
+}
+
+@media(max-width: 768px){
+  .middle-card{
+  order: -1;
+  }
 }
